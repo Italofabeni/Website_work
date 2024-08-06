@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+    #nav-bar {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+    }
+
+    .content-col p{
+        display: flex; 
+        padding-top: 10px;
+        line-break: anywhere;
+        width: 80%;
+    }
+}

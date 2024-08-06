@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Website nutri</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <div class="logo">Arlice Batscher <i class='bx bxs-leaf'></i></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#agender">Agender</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Arlice Batscher <i class='bx bx-leaf'></i></div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">  <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()"><i class="ri-home-2-line"></i> Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()"><i class="ri-empathize-line"></i> About Me</a></li>
+                <li><a href="#agender" onclick="toggleMenu()"><i class="ri-calendar-event-line"></i> Agender</a></li>   
+                <li><a href="#contact" onclick="toggleMenu()"><i class="ri-mail-line"></i> Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/profile_icon.png" alt="photo_profile" style=" border-radius: 80%;">
+        </div>
+        <div class="section__text">
+            <p class="section__text_pi">Hello, I`am</p>
+            <h1 class="title">Arlice Batscher</h1>
+            <p class="section__text__p2">I` am your Nutritionist</p>
+            <div class="btn-container">
+                <button class="btn-buttom" 
+                onclick="location.href='#'">Agendar Consulta</button>
+            </div>
+            <div id="socials-container">
+                <a href="#" id="insta-pro"><i class="ri-instagram-fill"></i></a>
+                <a href="#" id="whats-pro"><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__pl">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="image-gallery">
+            <img src="./images/pexels-jonathanborba-3076509.jpg" alt="">
+            <img src="./images/pexels-mikhail-nilov-6707696.jpg" alt="">
+            <img src="./images/pexels-beyzahzah-89810429-15319038.jpg" alt="">
+            <img src="./images/pexels-wancukz-1034940.jpg" alt="">
+            <img src="./images/pexels-the-5th-50003-179912.jpg" alt="">
+            <img src="./images/pexels-yaroslav-shuraev-8844379.jpg" alt="">
+        </div>
+        <div class="row">
+            <div class="content-col">
+                <h1>texto principal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus cupiditate ipsum quisquam nisi. Voluptate beatae labore, eaque ipsam soluta neque consectetur cupiditate, cumque aut ducimus perspiciatis, eius quam hic.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa explicabo distinctio architecto assumenda labore adipisci dolore quia odit earum, maiores temporibus sed cumque accusantium perspiciatis illum omnis impedit quasi facere!    
+                </p>
+            </div>
+    </section>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title" id="agender">Atendimento Online e Presencial</h1>      <h1 class="title_second">Consulta Presencial</h1>
+            <div class="services-list">
+          
+          
+                    <div class="calendar-box">
+                        <i class='bx bx-calendar-check'></i>
+                    
+                    <h2>Agendamento</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="clinic-box">
+                    <i class='bx bx-clinic'></i>
+                    <h2>Atendimento Presencial</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="corporal-box">
+                    <i class="ri-empathize-fill"></i>
+                    <h2>Análise Corporal</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="user-box">
+                    <i class="ri-user-heart-line"></i>
+                    <h2>Planejamento Personalizado</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+            </div>
+           
+        </div>
+    </div> 
+    <p class="cont-text">ou</p>
+    <div class="container">
+        <h1 class="title_second_alow">Consulta Online</h1>
+            <div class="services-list">
+          
+                    <div class="calendar-box">
+                        <i class="ri-macbook-line"></i>
+                    
+                    <h2 style="padding: 0px 0px 2px;">Agendamento Online</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="clinic-box">
+                    <i class="ri-health-book-line"></i>
+                    <h2 style="padding: 0px 0px 2px;">Envio de Material Solicitado</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="corporal-box">
+                    <i class="ri-video-on-line"></i>
+                    <h2 style="padding: 0px 0px 2px;">Consulta por Vídeo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+                <div class="user-box">
+                    <i class="ri-user-heart-line"></i>
+                    <h2 style="padding: 0px 0px 2px;">Planejamento Personalizado</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto illo repudiandae ullam odit voluptate velit a quidem aperiam, aliquam consequuntur saepe. Praesentium, repellat suscipit velit temporibus sit quisquam blanditiis!</p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="btn-container_2">
+        <button class="btn-buttom_over" 
+        onclick="location.href='#'">Agendar Consulta</button>
+    </div>
+
+ 
+    <section class="footer">
+        <p id="contact"> <i class="ri-map-pin-line"></i> Rua fictícia, 1234, Alto de Athenas, UKL | <i class="ri-phone-line"></i> Telefone: (99) 9999-9999 | <i class="ri-mail-line"></i> Email: Contatoextra@gmail.com</p>
+        <p id="copy_serv">Copyright &copy; 2024 Empresa,Nome</p>
+        <div class="contact_footer">
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-whatsapp-line"></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
