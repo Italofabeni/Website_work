@@ -461,3 +461,28 @@ section {
     text-underline-offset: none;
     color: #00e7e7;
 }
+
+.social-media {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.social-media h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.social_first_cont i {
+    font-size: 70px;
+    color: #07c5df;
+}
+.social_first_cont p {
+    text-decoration: underline;
+}
+
+.social_first_cont a:hover{
+    text-decoration: none;
+}
