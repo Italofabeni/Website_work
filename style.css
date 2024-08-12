@@ -11,10 +11,12 @@
 body {
     font-family: "Roboto",sans-serif;
     background: linear-gradient(to right ,#fff, #ffffffd8, #ffffffbd);
+    
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -250,8 +252,9 @@ section {
     text-decoration-line: underline;
 }
 
-.title {
+.title_about {
     font-weight: 700;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
 }
@@ -334,6 +337,7 @@ section {
     transition: .3s ease-in-out;
 }
 
+
 .services-list div {
     background-color: transparent;
     padding: 40px;
@@ -343,7 +347,7 @@ section {
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #02abb1,
-                1px 1px 40px #000000;
+                1px 1px 5px #000000;
 }
 
 .services-list div i {
@@ -395,6 +399,7 @@ section {
 .title_second {
     text-align: center;
     text-decoration: underline #00e7e7;
+    font-size: 35px;
 }
 
 .cont-text {
