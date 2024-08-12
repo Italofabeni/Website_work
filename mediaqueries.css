@@ -7,6 +7,29 @@
         display: flex;
     }
 
+
+    .content-col p{
+        display: flex; 
+        padding-top: 100px;
+        line-break: anywhere;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+    #nav-bar {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+    }
+
+   .services {
+    padding-top: 120px;
+   }
+
     .content-col p{
         display: flex; 
         padding-top: 10px;
