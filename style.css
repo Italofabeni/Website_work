@@ -10,7 +10,7 @@
 
 body {
     font-family: "Roboto",sans-serif;
-    background: linear-gradient(to right ,#fff, #ffffffd8, #ffffffbd);
+    background: linear-gradient(to right ,#ffffff, #ffffffd8, #ffffffbd);
     
 }
 
@@ -302,7 +302,7 @@ section {
     display: flex; 
     padding-top: 10px;
     line-break: anywhere;
-    width: 50%;
+    width: 100%;
 }
 
 
