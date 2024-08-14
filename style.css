@@ -468,7 +468,7 @@ section {
 }
 
 .social-media {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -478,9 +478,13 @@ section {
 .social-media h1 {
     font-weight: 600;
     font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.social_first_cont i {
+
+.social_first_cont i{
     font-size: 70px;
     color: #07c5df;
 }
