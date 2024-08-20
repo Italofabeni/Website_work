@@ -301,8 +301,7 @@ section {
 .content-col p{
     display: flex; 
     padding-top: 10px;
-    line-break: anywhere;
-    width: 100%;
+    width: 50%;
 }
 
 
