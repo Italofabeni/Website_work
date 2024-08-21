@@ -256,7 +256,6 @@ section {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    justify-content: center;
 }
 
 .image-gallery {
@@ -301,7 +300,6 @@ section {
 .content-col p{
     display: flex; 
     padding-top: 10px;
-    width: 50%;
 }
 
 
@@ -330,7 +328,7 @@ section {
 
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(253px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
     transition: .3s ease-in-out;
