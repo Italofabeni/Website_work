@@ -284,6 +284,7 @@
         font-size: 70px;
         text-align: center;
         align-items: center;
+        opacity: 0;
     }
 
 
@@ -371,6 +372,8 @@
     }
 }
 
+
+
 @media (min-width: 1024px) and (max-width: 1366px) {
     .logo {
         font-size: 40px;
@@ -438,6 +441,10 @@
     
     .services {
         margin-top: 50px;
+    }
+
+    .sub-title {
+        opacity: 1;
     }
 
     .services-list h2 {
