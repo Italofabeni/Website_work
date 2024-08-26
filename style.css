@@ -53,13 +53,13 @@ nav {
     font-size: 1.5rem;
 }
 
-a {
+.menu-links li, a {
     color: black;
     text-decoration: none;
     text-decoration-color: #fff;
 }
 
-a:hover {
+.menu-links li, a:hover {
     color: #13b1b1;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -474,7 +474,7 @@ section {
 
 .social-media h1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -489,6 +489,24 @@ section {
     text-decoration: underline;
 }
 
-.social_first_cont a:hover{
+
+.social_first_cont a:hover {
+    color: #00e7e7;
     text-decoration: none;
+}
+
+#insta-M {
+    padding-bottom: 30px;
+}
+
+#whats-M {
+    padding-bottom: 30px;
+}
+
+#tel-M {
+    padding-bottom: 30px;
+}
+
+#mail-M {
+    padding-bottom: 30px;
 }

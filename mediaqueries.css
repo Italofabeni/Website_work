@@ -1,12 +1,4 @@
 @media screen and (min-width: 1500px){
-    #nav-bar {
-        display: none;
-    }
-
-    #mobile-nav {
-        display: flex;
-    }
-
    .services {
     padding-top: 120px;
    }
@@ -17,6 +9,7 @@
         line-break: anywhere;
         width: 80%;
     }
+    
 }
 
 @media screen and (max-width: 1200px) {
@@ -43,6 +36,7 @@
         margin-top: 10px;
     }
 
+    
 
 }
 
@@ -156,6 +150,11 @@
     .social-media {
         align-items: center;
         justify-content: center;
+        margin-top: 10%;
+    }
+
+    .social-media h1 {
+        font-size: 30px;
     }
 
     .footer {
@@ -178,7 +177,7 @@
         font-size: 30px;
         margin-top: 10px;
     }
-
+    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -485,6 +484,81 @@
 
 @media(orientation: landscape) {
     .services {
-        margin-top: 150%;
+        margin-top: 500px;
     }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        padding: 0px 30px;
+        margin: 0px;
+        background: #7e7e7e46;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 5%;
+    } 
+
+    .content-col p {
+        font-size: 20px;
+    }
+
+    .services-list h2 {
+        font-size: 20px;
+    }
+
+    .services-list p {
+        font-size: 15px;
+    }
+
+    .container .title_second_alow {
+        margin-bottom: 5%;
+    }
+
+    .title_second_alow {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title_second {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .section__text__pi {
+        font-size: 20px;
+    }
+
+    .section__text__p2 {
+        font-size: 20px;
+    }
+
+    .btn-buttom {
+        font-size: 20px;
+        height: 4rem;
+        padding: 1rem;
+        width: 15rem;
+        border-radius: 4rem;
+    }
+
+    #socials-container i {
+        font-size: 40px;
+    }
+
+    .social-media h1 {
+        margin-bottom: 30px;
+    }
+
+    .btn-buttom_over {
+        font-size: 18px;
+    }
+
+    
 }
