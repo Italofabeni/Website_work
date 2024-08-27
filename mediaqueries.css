@@ -485,9 +485,11 @@
 
 }
 
+
+
 @media(orientation: landscape) {
     .services {
-        margin-top: 500px;
+        margin-top: 400px;
     }
 
     .footer {
