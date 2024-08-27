@@ -10,14 +10,14 @@
 
 body {
     font-family: "Roboto",sans-serif;
-    background: linear-gradient(to right ,#ffffff, #ffffffd8, #ffffffbd);
-    
+    background: linear-gradient(to right, #ffffff,#ffffff , #ffffff);
 }
 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
 
 .logo {
     font-family:  "Edu AU VIC WA NT Hand", cursive;
@@ -336,7 +336,7 @@ section {
 
 
 .services-list div {
-    background-color: transparent;
+    background-color: #fff;
     padding: 40px;
     font-size: 15px;
     font-weight: 13px;
