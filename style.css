@@ -59,7 +59,7 @@ nav {
     text-decoration-color: #fff;
 }
 
-.menu-links li, a:hover {
+a:hover {
     color: #13b1b1;
     text-decoration: underline;
     text-underline-offset: 1rem;
