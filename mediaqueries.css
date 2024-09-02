@@ -180,6 +180,11 @@
         font-size: 30px;
         margin-top: 10px;
     }
+
+    #copy_serv {
+        font-size: 10px;
+        text-decoration: underline;
+    }
     
 }
 
