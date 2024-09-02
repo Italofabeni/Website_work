@@ -12,6 +12,8 @@
 body {
     font-family: "Roboto",sans-serif;
     background-image: url("./images/beige_bg.png");
+    background-repeat: no-repeat;
+    background-color: #f1e8df; 
 }
 
 html {
@@ -338,6 +340,7 @@ section {
     grid-gap: 40px;
     margin-top: 50px;
     transition: .3s ease-in-out;
+    background-image: url("./images/beige_bg.png");
 }
 
 
@@ -453,7 +456,7 @@ section {
     background: #7e7e7eab;
     text-align: center;
     padding-bottom: 50px;
-    margin-top: 5%;
+    margin-top: 5%; 
 }
 .footer p {
     color: #000;
@@ -476,6 +479,9 @@ section {
     text-align: center;
     width: 100%;
     margin-top: 10%;
+    background-image: url("./images/plant-bg-social.jpg");
+    background-position: 50px 80px;
+    background-repeat: no-repeat;
 }
 
 .social-media h1 {
