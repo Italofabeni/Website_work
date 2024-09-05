@@ -1,5 +1,12 @@
 @media screen and (min-width: 1500px){
-   .services {
+   
+   body {
+    background-image: url("./images/beige_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+   
+    .services {
     padding-top: 120px;
    }
 
@@ -382,6 +389,8 @@
 
 
 @media (min-width: 1024px) and (max-width: 1366px) {
+    
+    
     .logo {
         font-size: 40px;
     }
@@ -452,6 +461,12 @@
 
     .sub-title {
         opacity: 1;
+    }
+
+    .services-list {
+        background-image: url("./images/beige_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .services-list h2 {

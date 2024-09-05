@@ -180,6 +180,8 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    border: solid 2px #c5414c;
+    border-radius: 50%;
 }
 
 .section__text {
