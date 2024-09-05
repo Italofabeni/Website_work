@@ -17,6 +17,9 @@
         width: 80%;
     }
     
+    #about {
+        margin-top: 200px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -454,6 +457,9 @@
         font-size: 50px;
     }
 
+    #about {
+        margin-top: 400px;
+    }
     
     .services {
         margin-top: 50px;
@@ -461,12 +467,13 @@
 
     .sub-title {
         opacity: 1;
+        margin-top: 300px;
     }
 
     .services-list {
         background-image: url("./images/beige_bg.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100% 100%;
     }
 
     .services-list h2 {
@@ -484,6 +491,12 @@
         align-items: center;
         font-size: 30px;
     }    
+
+    .social-media {
+        background-image: url("./images/plant-bg-social.jpg");
+        background-position: 500px 100px;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1280px) {
