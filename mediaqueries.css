@@ -31,6 +31,9 @@
         display: flex;
     }
 
+    .menu-links {
+        width: 500px;
+    }
 
     .content-col p{
         display: flex; 
@@ -62,6 +65,10 @@
 
     #nav-bar {
         display: none;
+    }
+
+    .menu-links {
+        width: 200px;
     }
 
     #mobile-nav {
@@ -210,7 +217,7 @@
     }
 
     .menu-links a {
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .menu-links i {
